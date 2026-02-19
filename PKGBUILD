@@ -1,6 +1,6 @@
 # Maintainer: nihilok <https://github.com/nihilok>
 pkgname=runtool
-pkgver=0.3.23
+pkgver=0.3.24
 pkgrel=1
 pkgdesc="A.K.A. run - the bridge between human and AI tooling"
 arch=('x86_64' 'aarch64')
@@ -8,7 +8,7 @@ url="https://github.com/nihilok/run"
 license=('MIT')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/nihilok/run/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('826070c33b791c5405d7c5ac08112cb9efb49c35b8eab4f02a7304ca85826dcb')
+sha256sums=('3afd83e74df0033406fe24858323a2b3d468acdc2ad3f0be217fc46541b691f7')
 
 prepare() {
     cd "run-$pkgver"
