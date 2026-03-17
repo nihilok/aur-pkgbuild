@@ -1,13 +1,13 @@
 pkgbase = runtool
 	pkgdesc = A.K.A. run - the bridge between human and AI tooling
-	pkgver = 0.4.4
+	pkgver = 0.4.5
 	pkgrel = 1
 	url = https://github.com/nihilok/run
 	arch = x86_64
 	arch = aarch64
 	license = MIT
 	makedepends = cargo
-	source = runtool-0.4.4.tar.gz::https://github.com/nihilok/run/archive/refs/tags/v0.4.4.tar.gz
-	sha256sums = e7b58613e6f05b1cf535f3809d5ac834f48c9751188bc62d75d4161b8f2b1822
+	source = runtool-0.4.5.tar.gz::https://github.com/nihilok/run/archive/refs/tags/v0.4.5.tar.gz
+	sha256sums = 1676ba0dc632a4298770611b24981a7a172e74ef59ef2022229f30a292eeb63a
 
 pkgname = runtool
